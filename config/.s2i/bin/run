@@ -1,8 +1,6 @@
 #!/bin/bash
 set -eo pipefail
 
-echo "Inside the run script"
-
 if [ x"$DATA_DIRECTORY" != "x" ]; then
     mkdir -p $DATA_DIRECTORY
     cp /tmp/src/config/src/main/resources/data/* $DATA_DIRECTORY
