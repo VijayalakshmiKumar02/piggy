@@ -10,6 +10,9 @@ S2I_SCRIPT_DIR="/usr/local/s2i"
 if [ -f /deployments/scripts/$MODULE_DIR/run ]; then
 
    echo "Using module-specific run script"
+   echo "Changing permission"
+   echo $MODULE_DIR
+   chmod a+x /deployments/scripts/$MODULE_DIR/run
    exec /deployments/scripts/$MODULE_DIR/run
 
 else
