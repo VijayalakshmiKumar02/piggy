@@ -73,9 +73,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
+<!-- 				<configuration>
 					<finalName>auth-service</finalName>
-				</configuration>
+				</configuration> -->
 			</plugin>
 			<plugin>
 				<groupId>org.jacoco</groupId>
