@@ -7,7 +7,7 @@ metadata:
 parameters:
 - description: Git Source Repository
   name: SOURCE_REPOSITORY
-  value: https://github.com/Jesudos/piggy
+  value: https://github.com/VijayalakshmiKumar02/piggy
   required: true
 - description: Git Source reference
   name: SOURCE_REF
