@@ -12,7 +12,7 @@ if [ -f /deployments/scripts/$MODULE_DIR/run ]; then
    echo "Using module-specific run script"
    echo "Changing permission"
    echo $MODULE_DIR
-   chmod a+x /deployments/scripts/$MODULE_DIR/run
+   sudo chmod a+x /deployments/scripts/$MODULE_DIR/run
    exec /deployments/scripts/$MODULE_DIR/run
 
 else
