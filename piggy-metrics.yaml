@@ -54,7 +54,7 @@ objects:
         from:
           kind: ImageStreamTag
           name: openjdk18-openshift:latest
-          namespace: piggy-metrics
+          namespace: piggy-openshift
       type: Source
     triggers:
     - imageChange: {}
@@ -95,7 +95,7 @@ objects:
         from:
           kind: ImageStreamTag
           name: openjdk18-openshift:latest
-          namespace: piggy-metrics
+          namespace: piggy-openshift
       type: Source
     triggers:
     - imageChange: {}
@@ -136,7 +136,7 @@ objects:
         from:
           kind: ImageStreamTag
           name: openjdk18-openshift:latest
-          namespace: piggy-metrics
+          namespace: piggy-openshift
       type: Source
     triggers:
     - imageChange: {}
@@ -177,7 +177,7 @@ objects:
         from:
           kind: ImageStreamTag
           name: openjdk18-openshift:latest
-          namespace: piggy-metrics
+          namespace: piggy-openshift
       type: Source
     triggers:
     - imageChange: {}
@@ -218,7 +218,7 @@ objects:
         from:
           kind: ImageStreamTag
           name: openjdk18-openshift:latest
-          namespace: piggy-metrics
+          namespace: piggy-openshift
       type: Source
     triggers:
     - imageChange: {}
@@ -259,7 +259,7 @@ objects:
         from:
           kind: ImageStreamTag
           name: openjdk18-openshift:latest
-          namespace: piggy-metrics
+          namespace: piggy-openshift
       type: Source
     triggers:
     - imageChange: {}
@@ -300,7 +300,7 @@ objects:
         from:
           kind: ImageStreamTag
           name: openjdk18-openshift:latest
-          namespace: piggy-metrics
+          namespace: piggy-openshift
       type: Source
     triggers:
     - imageChange: {}
@@ -342,7 +342,7 @@ objects:
         from:
           kind: ImageStreamTag
           name: openjdk18-openshift:latest
-          namespace: piggy-metrics
+          namespace: piggy-openshift
       type: Source
     triggers:
     - imageChange: {}
